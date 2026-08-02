@@ -1,3 +1,4 @@
+@import "./styles/theme.css";
 @import "tailwindcss";
 
 /* -------------------- */
@@ -17,11 +18,15 @@ html {
 body {
   background: #050505;
   color: white;
-  font-family: Inter, sans-serif;
   overflow-x: hidden;
+  font-family: "Inter", sans-serif;
 }
 
 ::selection {
   background: #00ff88;
   color: #000;
+}
+
+.heading-font{
+  font-family: "Space Grotesk", sans-serif;
 }

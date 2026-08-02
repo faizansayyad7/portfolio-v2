@@ -1,18 +1,11 @@
-import Background from "./components/ui/Background";
+import Layout from "./components/layout/Layout";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
-    <>
-      <Background />
-
-      <main className="min-h-screen text-white">
-        <section className="flex min-h-screen items-center justify-center">
-          <h1 className="text-7xl font-bold">
-            Portfolio V2
-          </h1>
-        </section>
-      </main>
-    </>
+    <Layout>
+      <Hero />
+    </Layout>
   );
 }
 
